@@ -19,7 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Request / Response models ─────────────────────────────────
+# ── Request / Response models nvhgvh ─────────────────────────────────
 class ChatRequest(BaseModel):
     question: str
     history: list[dict] = []   # [{"role": "user"|"assistant", "content": "..."}]
